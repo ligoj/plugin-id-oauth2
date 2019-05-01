@@ -1,0 +1,4 @@
+id;data;mandatory;secured;type;owner.id;defaultValue
+service:id:oauth2:client-id;;true;false;TEXT;service:id:oauth2
+service:id:oauth2:client-secret;;true;true;TEXT;service:id:oauth2
+service:id:oauth2:key-length;;false;false;INTEGER;service:id:oauth2;256

@@ -1,0 +1,3 @@
+id;name;refined.id;mode;uiClasses;tag;tagUiClasses
+service:id:oauth2;Identity OAuth 2.0;service:id;ALL;;;
+service:id:oauth2:local;Identity OAuth 2.0 Local;service:id:oauth2;ALL;;;
