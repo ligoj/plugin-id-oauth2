@@ -269,7 +269,7 @@ public class SqlPluginResource extends AbstractToolPluginResource
 		final GroupOrg parentGroupSql = groupResource.findById(parentGroup);
 		if (parentGroupSql == null) {
 			// The parent group does not exists
-			throw new ValidationJsonException(IdentityResource.PARAMETER_PARENT_GROUP, BusinessException.KEY_UNKNOW_ID,
+			throw new ValidationJsonException(IdentityResource.PARAMETER_PARENT_GROUP, BusinessException.KEY_UNKNOWN_ID,
 					parentGroup);
 		}
 
@@ -311,7 +311,7 @@ public class SqlPluginResource extends AbstractToolPluginResource
 
 		// Check the group exists
 		if (groupSql == null) {
-			throw new ValidationJsonException(IdentityResource.PARAMETER_GROUP, BusinessException.KEY_UNKNOW_ID, group);
+			throw new ValidationJsonException(IdentityResource.PARAMETER_GROUP, BusinessException.KEY_UNKNOWN_ID, group);
 		}
 
 		// Check the group has type TYPE_PROJECT

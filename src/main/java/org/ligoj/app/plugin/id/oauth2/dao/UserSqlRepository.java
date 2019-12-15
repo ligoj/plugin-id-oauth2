@@ -44,7 +44,7 @@ import org.ligoj.app.plugin.id.model.FirstNameComparator;
 import org.ligoj.app.plugin.id.model.LastNameComparator;
 import org.ligoj.app.plugin.id.model.LoginComparator;
 import org.ligoj.app.plugin.id.model.MailComparator;
-import org.ligoj.app.plugin.id.sql.model.UserSqlCredential;
+import org.ligoj.app.plugin.id.oauth2.model.UserSqlCredential;
 import org.ligoj.bootstrap.core.DateUtils;
 import org.ligoj.bootstrap.core.json.InMemoryPagination;
 import org.ligoj.bootstrap.core.resource.TechnicalException;
